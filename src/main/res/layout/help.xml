@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:screenOrientation="portrait"
+    tools:context="com.example.assignment2.Help">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="650px"
+        android:layout_height="650px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="134dp"
+        android:text="NetWalk is a puzzle game; the object is to connect every node by pipes to the main server as quickly as possible.\n\nTapping each object will rotate it clockwise once.\nThere are three difficulty modes in this game which are Easy, Medium and Hard.\n\nEasy has a 5x5 grid, Medium has a 7x7 grid and Hard has a 9x9 grid.\n\nOnce you have solved the puzzle, you will be told how many moves you had to make to complete the puzzle."
+        android:textColor="#111111" />
+
+</RelativeLayout>
